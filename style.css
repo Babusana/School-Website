@@ -1,0 +1,236 @@
+*{
+    padding: 0;
+    margin:0;
+}
+a{
+    text-decoration: none;
+}
+@font-face {
+    font-family: ppmori;
+    src: url(/Fonts/ppmori.ttf);
+}
+@font-face {
+    font-family: roboto;
+    src: url(/Fonts/Roboto-Black.ttf);
+}
+@font-face {
+    font-family: phudu;
+    src: url(/Fonts/Phudu-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: poppins;
+    src: url(/Fonts/Poppins-Medium.ttf);
+}
+@font-face {
+    font-family: raleway;
+    src: url(/Fonts/Raleway-Italic-VariableFont_wght.ttf);
+}
+/* -----------------Page 1 ------------*/
+.page1{
+    height: 100vh;
+    width: 99vw;
+    background-image: url(/Background\ img/welcome.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    overflow-x: hidden;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.5);
+    margin-bottom: 30px;
+}
+.page1 h1{
+    font-family: roboto, sans-serif;
+    font-size: 5.8vw;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.page1 h2{
+    font-family: phudu,sans-serif;
+    font-weight: 300;
+    font-size: 2.2vw;
+}
+/* -----------Page 1 Ends Here ----------------*/
+
+
+/* -----------Page 2 Starts Here --------------*/
+.page2{
+    height: 100vh;
+    width: 100vw;
+    background-image: url(/Background\ img/home.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.5);
+}
+.page2 h1{
+    padding-top: 8vw ;
+    margin-bottom: 5rem;
+    font-size: 5.4vw;
+    width: 736px;
+    color: #5F7783;
+    transition: all 1s ease-in-out;
+}
+.page2 ul{
+    text-decoration:wavy;
+    display: flex;
+    flex-direction: column;
+    gap: 33px;
+    font-size: 2vw;
+    color: #5F7783;
+    list-style:circle;
+}
+.page2 h1, ul{
+    padding-left: 8vw;
+}
+.page2 img{
+    height: 24vw;
+    position: absolute;
+    right: 20%;
+    bottom: 20%;
+}
+/* -----------Page 2 Ends Here ----------------*/
+
+/* -----------Page 3 Starts Here ----------------*/
+.page3{
+    height: 100vh;
+    width: 100vw;
+    background-image: url(/Background\ img/admi.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+    position: relative;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.5);
+}
+.page3>h1,.page3>p ,.page3>div,.page3>a{
+    padding-left: 8vw;
+}
+.page3 h1{
+    font-size: 7vw;
+    text-transform: uppercase;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    transition: all .8s ease-in-out;
+}
+.page3 h1:nth-child(1){
+    color:#03989E ;
+    padding-top: 12vw;
+}
+.page3 h1:nth-child(2){
+    color: #334979;
+}
+.page3>p{
+    padding-top: 35px;
+    padding-bottom: 22px;
+    font-size: 1.4vw;
+    color: #5F7783;
+    transition: all .8s ease-in-out;
+}
+.page3 > a{
+    color: white;
+    background-color: #03989E;
+    align-self: center;
+    padding: 12px ;
+    font-size: 14px;
+    border-radius: 6px;
+    margin-left: -75vw;
+    margin-bottom: 30px;
+    transition: all .8s ease-in-out;
+}
+.ab{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ab img{
+    height: 28px;
+    background-color: #03989E;
+    border-radius: 10%;
+    transition: all 1.2s ease-in-out;
+}
+/* -----------Page 3 Ends Here ----------------*/
+/* -----------Page 4 Starts Here ----------------*/
+.page4{
+    height: 100vh;
+    width: 100vw;
+    background-image: url(/Background\ img/cont.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.5);
+}
+.page4 > h1{
+    font-size: 6vw;
+    transition: all .8s ease-in-out;
+
+}
+.dabbe{
+    height: 30vw;
+    width: 35vw;
+    border-radius: 5px;
+    transition: all 1s linear;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 40px;
+}
+.div1{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.div1 img{
+    height: 12vw;
+    margin-bottom: 40px;
+    transition: all .53s ease-in;
+}
+.div1 img:hover{
+    transform: scale(1.4);
+    transition: all .53s ease-in;
+    cursor: pointer;
+}
+.div1 h2{
+    font-size: 3vw;
+}
+.div1 p{
+    font-size: 1.3vw;
+    margin-top: 10px;
+}
+.div2{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
+.child{
+    border-radius: 5px;
+    background-color: white;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.child img {
+    background-color: #593530;
+    border-radius: 10px;
+    margin-left: 40px;
+}
+.child > span{
+    margin-left: 10px;
+    font-size: 1.3vw;
+}
+/* -----------Page 4 Ends Here ----------------*/
